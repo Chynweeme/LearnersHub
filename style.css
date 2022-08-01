@@ -287,7 +287,7 @@ footer{
     .homepic-button{
         height: 50px;
     width: 80vw;
-    margin-top: 20px;
+    margin-top: 50px;
     margin-left: 40px;
     border-radius: 10px;
     background-image: linear-gradient(#CE35ED, #E988FC, #CE35ED );
@@ -296,7 +296,7 @@ footer{
     }
 
     .homepic-login{
-        margin-left: 190px;
+        margin-left: 180px;
         margin-top: 10px;
         color: #0A0515;
     }
