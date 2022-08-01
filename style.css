@@ -55,6 +55,14 @@ menu{
     left: 150px;
 }
 
+.homepic-subheading{
+    font-size: 14px ;
+    font-weight: 600;
+    width: 400px;
+    text-align: center;
+    margin: auto;
+}
+
 .right-side{
     background-color: #3C1E7B;
     width: 50%;
@@ -259,16 +267,38 @@ footer{
 
     .left-side{
         width: 100%;
+        height: 100vh;
     }
 
     .girl{
+        margin-top: -30px;
         margin-left: -60px;
+        height: 50vh;
+        width: 50vw;
     }
 
     .left-side p{
         font-size: 24px;
         margin-left: 120px;
+        margin-top: 70px;
 
+    }
+
+    .homepic-button{
+        height: 50px;
+    width: 80vw;
+    margin-top: 20px;
+    margin-left: 40px;
+    border-radius: 10px;
+    background-image: linear-gradient(#CE35ED, #E988FC, #CE35ED );
+    border: 0px;
+    font-weight: bold;
+    }
+
+    .homepic-login{
+        margin-left: 190px;
+        margin-top: 10px;
+        color: #0A0515;
     }
 
    
