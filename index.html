@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ProjectLearn</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/f517a417fe.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./fontawesome-free-6.1.1-web/css/all.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav class="d-flex justify-content-lg-between">
+    <div class="logo d-flex">
+        <img src="./Pictures/LogoLearn.png" alt="Logo">
+        <p >LearnHub</p>
+    </div>
+    <div class="menu d-none d-lg-block ">
+      <a href="##">Home</a>
+      <a href="##">About Us</a>
+      <a href="##">Contact Us</a>
+      <a href="##">Security</a>
+    </div>
+
+    
+
+
+    <div class="nav-menu"></div>
+  </nav> 
+
+  <main >
+   <section class="d-flex">
+     <!-- left side -->
+     <div class="left-side">
+      <img src="./Homepic.png" class="girl" alt="girl">
+      <p>Learning is fun!</p>
+    </div>
+
+    <!-- right side -->
+    <div class="right-side d-none d-lg-block ">
+      <div class="d-flex container subheading">
+        <p style="color:#F9EAFC; font-size: 24px;">Sign up here</p>
+        
+      </div>
+
+      <form >
+       <div>
+          <div class="d-flex contact-input-wrapper">
+            <div class="labell"> Full name </div>
+            <input type="text" class="contact-input" placeholder="  e.g: John Smith">
+          </div>
+
+          <div class="d-flex contact-input-wrapper">
+            <div class="labell"> Email </div>
+            <input type="email" class="contact-input" placeholder="  e.g: johnsmith123@gmail.com">
+          </div>
+
+          <div class="d-flex contact-input-wrapper">
+            <div class="labell"> Phone </div>
+            <input type="number" class="contact-input" placeholder="  e.g: +234 8012345678">
+          </div>
+
+          <button class="CTA">Sign up</button>
+          <p>Already have an account? <span><a href="##" style="color:#E988FC ;">Log in</a></span></p>
+       </div>
+      </form>
+
+    </div>
+
+   </section>
+
+   <section class="what-we-offer">
+    <div class="our-services" style="font-weight:bold; text-align:center"><p> Our services are..</p></div>
+    <div class="container d-lg-flex" >
+      <div class="card  me-4 " style="width: 18rem;margin-top: 20px;">
+        <img src="./Pictures/math.png" class="card-img-top" alt="mathematics">
+        <div class="card-body">
+          <h5 class="card-title" style="text-align:center">Mathematics</h5>
+          <p class="card-text">Algebra,Geometry,Calculus,Statistics...</p>
+          <a href="#" class="btn text-white" style="width:100%; background-color: #0A0515;">Take Lessons</a>
+        </div>
+      </div>
+  
+      <div class="card me-4" style="width: 18rem;margin-top: 20px;">
+        <img src="./Pictures/english.png" class="card-img-top" alt="english">
+        <div class="card-body" style="text-align:center">
+          <h5 class="card-title">English</h5>
+          <p class="card-text">Grammar, lexis, structure, comprehension...</p>
+          <a href="#" class="btn text-white" style="width:100%; background-color: #0A0515;" >Take Lessons</a>
+        </div>
+      </div>
+
+      <div class="card me-4" style="width: 18rem;margin-top: 20px;">
+        <img src="./Pictures/DIY.png" class="card-img-top" alt="DIY">
+        <div class="card-body" style="text-align:center">
+          <h5 class="card-title">DIY</h5>
+          <p class="card-text" >Grammar, lexis, structure, comprehension...</p>
+          <a href="#" class="btn text-white" style="width:100%; background-color: #0A0515;" >Take Lessons</a>
+        </div>
+      </div>
+
+      <div class="card me-4" style="width: 18rem;margin-top: 20px;">
+        <img src="./Pictures/science.png" class="card-img-top" alt="DIY">
+        <div class="card-body" style="text-align:center" >
+          <h5 class="card-title">Science</h5>
+          <p class="card-text">Grammar, lexis, structure, comprehension...</p>
+          <a href="#" class="btn text-white" style="width:100%; background-color: #0A0515;" >Take Lessons</a>
+        </div>
+      </div>
+
+      <div class="foward-icon d-none d-lg-block">
+        <i class="fa-solid fa-circle-arrow-right fa-4x"></i>
+      </div>
+
+    </div>
+   </section>
+
+   <section class="Peer">
+    <div  class="p-5" style="text-align:center;font-size:40px; font-weight: bold; color: white;"><p>Connect with peers globally</p></div>
+    <div class="peerconnect"></div>
+    <button class="peerCTA">Connect</button>
+   </section>
+
+   <section class="game">
+    <div class="game-wrapper">
+      <p style="text-align:center; font-weight:bold; font-size: 24px">Prefer gaming? We've got you covered!</p>
+      <div class="joystick"></div>
+      <button class="playgame">View games</button>
+    </div>
+   </section>
+
+   <footer>
+    <div class="writeups text-white">
+      <div>About us</div>
+      <div>FAQs</div>
+      <div>Services</div>
+      <div>Security</div>
+      <div>Careers</div>
+      <div>Privacy Policy</div>
+      <div>Meet the Team</div>
+      <button>Contact us</button>
+      
+    </div>
+   </footer>
+
+
+
+   
+
+  </main>
+
+  
+    
+
+</body>
+</html>

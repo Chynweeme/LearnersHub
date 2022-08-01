@@ -1,0 +1,366 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 0px;
+}
+
+.logo{
+    width: 50px;
+    height: 50px;
+    margin-left: 15px;
+}
+
+nav{
+    height: 70px;
+    background-color: black;
+    align-items: center;
+    
+}
+
+nav p{
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: 5px;
+    color: #F9EAFC;
+}
+
+menu{
+    justify-content: space-between;
+}
+
+.menu a{
+    margin-right: 40px;
+    text-decoration: none;
+    color: #F9EAFC;
+}
+
+.left-side{
+    background-color: #F9EAFC;
+    width: 50%;
+    height: 100vh;
+
+}
+
+.left-side p{
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 100px;
+    margin-left: 150px;
+}
+
+.girl{
+    width: 250px;
+    height: 350px;
+    position: relative;
+    top: 60px;
+    left: 150px;
+}
+
+.right-side{
+    background-color: #3C1E7B;
+    width: 50%;
+    height: 100vh;
+}
+
+.subheading{
+    margin-top: 50px;
+    margin-left: 150px;
+}
+
+
+
+form{
+    margin-left: 150px;
+}
+
+.labell{
+    background-color: #F9EAFC;
+    height: 30px;
+    width: 100px;
+    padding-left: 10px;
+    padding-top: 3px;
+    font-size: 14px;
+    border: 0;
+    border-radius: 10px 0px 0px 10px;
+    margin-top: 2.5px;
+
+}
+
+.contact-input-wrapper{
+    margin-top: 20px;
+}
+
+.contact-input{
+    width:50%;
+    height: 35px;
+    border: 0.1px 0px 0px 0px;
+    border-radius: 0px 10px 10px 0px;
+    border-color: none;
+    background-color: #F9EAFC;
+}
+
+form .CTA{
+    height: 50px;
+    width: 360px;
+    margin-top: 40px;
+    border-radius: 10px;
+    background-image: linear-gradient(#CE35ED, #E988FC, #CE35ED );
+    border: 0px;
+    font-weight: bold;
+}
+
+.what-we-offer .CTA{
+    height: 50px;
+    width: 360px;
+    margin-top: 40px;
+    border-radius: 10px;
+    background-image: linear-gradient(#CE35ED, #E988FC, #CE35ED );
+    border: 0px;
+    font-weight: bold;
+    position: relative;
+    justify-content: center;
+    left: 500px;
+    top: 20px;
+}
+
+.peerCTA{
+    height: 50px;
+    width: 360px;
+    margin-top: -100px;
+    margin-left: 500px;
+    border-radius: 10px;
+    background-image: linear-gradient(#CE35ED, #E988FC, #CE35ED );
+    border: 0px;
+    font-weight: bold;
+}
+
+
+
+form p{
+    margin-top: 10px;
+    color: #F9EAFC;
+}
+
+
+
+.picture-heading{
+    position: relative;
+    top: 40px;
+    left: 600px;
+    font-weight: bold;
+    color: #0A0515;
+
+}
+
+
+.our-services{
+    padding-top: 40px;
+    font-size: 24px;
+}
+
+.what-we-offer{
+    background-color: #CBB9F0;
+    width: 100vw;
+    height: 80vh;
+    
+}
+
+.foward-icon{
+    position: relative;
+    right: 10px;
+    top: 200px;
+    color: #3C1E7B;
+    box-shadow: 20px 20px 50px grey;
+    border-radius: 50%;
+    height: 50px;
+
+}
+
+.Peer{
+    background-color: #3C1E7B ;
+    height: 850px;
+    width: 100vw;
+}
+
+
+
+.peerconnect{
+    background-image: url(./Pictures/peerconnect.png);
+    width: 80vw;
+    height: 600px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: 0px 130px;
+}
+
+
+.game-wrapper{
+    width: 100vw;
+    height: 70vw;
+    background-color: #CBB9F0;
+
+}
+
+.game p{
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+
+.joystick{
+    width: 80vw;
+    height: 70vh;
+    background-image: url(./Pictures/joystick.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-left: 220px;
+    
+}
+
+.playgame{
+    height: 50px;
+    width: 360px;
+    margin-top: 40px;
+    margin-left: 500px;
+    border-radius: 10px;
+    background-image: linear-gradient(#CE35ED, #E988FC, #CE35ED );
+    border: 0px;
+    font-weight: bold;
+}
+
+footer{
+    background-color: #3C1E7B;
+    width: 100vw;
+    height: 250px;
+    
+}
+
+.writeups{
+    display: grid;
+    grid-template-columns: repeat(2,auto);
+    justify-content: space-evenly;
+    padding-top: 30px;
+}
+
+.writeups button{
+        width: 100px;
+      
+       
+        border-radius: 10px;
+        background-image: linear-gradient(#CE35ED, #E988FC, #CE35ED );
+        border: 0px;
+        font-weight: bold;
+}
+
+
+
+
+
+/* mobile version */
+@media  screen and (max-width:768px) {
+
+    .left-side{
+        width: 100%;
+    }
+
+    .girl{
+        margin-left: -60px;
+    }
+
+    .left-side p{
+        font-size: 24px;
+        margin-left: 120px;
+
+    }
+
+   
+    .what-we-offer{
+        background-color: #CBB9F0;
+        width: 100vw;
+        height: 1900px; 
+    }
+
+    .our-services{
+        padding: 20px;
+        font-size: 24px;
+    }
+
+    .what-we-offer .card{
+        margin-top: 0px !important;
+        margin-left: 50px;
+        margin-bottom: 30px;
+    }
+    
+    .Peer{
+        height: 480px;
+    }
+    
+    .Peer p{
+        font-size: 24px;
+        padding-bottom: -30px;
+        
+    }
+
+    .peerconnect{
+        background-image: url(./Pictures/peerconnect.png);
+        
+        background-size: contain;
+        background-repeat: no-repeat;
+        margin-left: 40px;
+        margin-bottom: -380px;
+    }  
+
+    .peerCTA{
+        height: 50px;
+        width: 80vw;
+        margin-top: -100px;
+        margin-left: 45px;
+       
+        border-radius: 10px;
+        background-image: linear-gradient(#CE35ED, #E988FC, #CE35ED );
+        border: 0px;
+        font-weight: bold;
+    }
+
+    .game-wrapper{
+        width: 100vw;
+        height: 500px;
+        background-color: #CBB9F0;
+    
+    }
+
+    .playgame{
+        height: 50px;
+        width: 80vw;
+        margin-top: 0px;
+        margin-left: 50px;
+        border-radius: 10px;
+        background-image: linear-gradient(#CE35ED, #E988FC, #CE35ED );
+        border: 0px;
+        font-weight: bold;
+    }
+    
+    .joystick{
+        width: 80vw;
+        height: 70vh;
+        background-image: url(./Pictures/joystick.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        margin-left: 50px;
+        margin-bottom: -150px;
+        
+    }
+
+   
+    .writeups{
+        display: grid;
+        grid-template-columns: repeat(2,auto);
+        padding-top: 30px;
+    }
+
+    .writeups button{
+        width: 100px;
+        border-radius: 10px;
+        background-image: linear-gradient(#CE35ED, #E988FC, #CE35ED );
+        border: 0px;
+        font-weight: bold;
+    }
+}
